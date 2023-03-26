@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to top left , rgb(230, 80, 54),rgb(31, 134, 231),rgb(196, 196, 52));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main{
+    background-color: rgba(255, 255, 255, 0.3);
+    /* background-color: #FBEAEB; */
+    height: 65vh;
+    width: 50%;
+    border-radius: 5px;
+}
+
+#input-data{
+    width: 86%;
+    padding: 2%;
+    margin: 5px;
+    outline:none;
+    border-radius: 5px;
+    border:none;
+}
+
+.buttons{
+    width: 10%;
+    height: 10%;
+    margin: 5px;
+    border-radius: 5px;
+    outline: none;
+    border:none;
+}
+
+.button-add{
+    background-color: rgba(17, 156, 75,0.3);
+    color:black;
+}
+.button-add:hover{
+    background-color: rgba(14, 128, 61,1);
+    color:white;
+}
+
+.item-list{
+    /* border: 1px solid; */
+    height: 70%;
+    width: 79%;
+    margin:auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.items{
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    width: 100%;
+    min-height: 15%;
+    width: 90%;
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.item-text{
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    color:rgb(43, 42, 42);
+    border-radius: 5px;
+    padding: 7px;
+    width: 70%;
+    height: 70%;
+    word-wrap: break-word;
+}
+
+.item-text:hover{
+    /* color:black; */
+    font-weight: 700;
+}
+
+.done{
+    background-color: rgba(0, 128, 0,0.5);
+    height: 80%;
+}
+.done:hover{
+    background-color: rgba(4, 100, 4, 1);
+    color:white;
+}
+.delete{
+    background-color: rgba(255, 0, 0,0.5);
+    height: 80%;
+}
+.delete:hover{
+    background-color: rgba(196, 9, 9,1);
+    color:white;
+}

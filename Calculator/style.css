@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(97, 89, 89);
+}
+.main_container {
+    border: 2px solid black;
+    position: absolute;
+    top: 10%;
+    left: 37%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    background-color: rgb(104, 141, 141);
+}
+
+#inp {
+    box-sizing: border-box;
+    height: 70px;
+    width: 315px;
+    margin-top: 7px;
+    font-size: 56px;
+    text-align: right;
+    background-color: rgb(46, 44, 44);
+    color: rgb(196, 193, 193);
+}
+
+.button_container {
+    margin: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 70px);
+    grid-template-rows: repeat(5, 70px);
+    gap: 5px;
+}
+
+.button_container button {
+    /* height: 70px; */
+    border-radius: 10px;
+}
+
+.plus {
+    grid-row: 2/4;
+    grid-column-start: 4;
+}
+
+.equal {
+    grid-row: 4/6;
+    grid-column-start: 4;
+}
+
+.zero {
+    grid-column: 1/3;
+}
